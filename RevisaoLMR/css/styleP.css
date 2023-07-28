@@ -49,7 +49,9 @@ header img{
     border-radius: 5px;
 }
 
-
+hr{
+    color: white;
+}
 
 
 
@@ -58,7 +60,7 @@ header img{
 
 footer{
     bottom: 0;
-    position: fixed;
+    position: relative;
     width: 90%;
     text-align: center;
 }
