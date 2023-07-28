@@ -30,6 +30,81 @@
         </div>
     </header>
 
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-6 justify-content-center mt-5">
+                  <h1>FORMULÁRIO DE CADASTRO</h1>
+                    <form class="row g-3 needs-validation" novalidate>
+                        <div class="col-md-4 position-relative">
+                          <label for="validationTooltip01" class="form-label">Nome</label>
+                          <input type="text" class="form-control" id="validationTooltip01" value="José" required>
+                          <div class="valid-tooltip">
+                            Looks good!
+                          </div>
+                        </div>
+                        <div class="col-md-4 position-relative">
+                          <label for="validationTooltip02" class="form-label">SobreNome</label>
+                          <input type="text" class="form-control" id="validationTooltip02" value="Sousa" required>
+                          <div class="valid-tooltip">
+                            Looks good!
+                          </div>
+                        </div>
+                        <div class="col-md-4 position-relative">
+                          <label for="validationTooltipUsername" class="form-label">Username</label>
+                          <div class="input-group has-validation">
+                            <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                            <input type="text" class="form-control" id="validationTooltipUsername" aria-describedby="validationTooltipUsernamePrepend" required>
+                            <div class="invalid-tooltip">
+                              Please choose a unique and valid username.
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-md-6 position-relative">
+                          <label for="exampleInputEmail1">Email</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Seu email">
+                        </div>
+
+                        <div class="col-md-3 position-relative">
+                          <label for="validationTooltip04" class="form-label">Idade</label>
+                          <select class="form-select" id="validationTooltip04" required>
+                            <option selected disabled value="">Choose...</option>
+                            <option>18-24</option>
+                            <option>25-36</option>
+                            <option>37-50</option>
+                            <option>60+</option>
+                          </select>
+                        </div>
+                        
+                        <div class="col-md-3 position-relative">
+                          <label for="exampleInputPassword1">Password</label>
+                          <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
+                        </div>
+              
+                        <div class="col-md-4 position-relative">
+                          <label for="validationTooltip05" class="form-label">Telefone</label>
+                          <input type="tel" class="form-control" id="tel" required>
+                        </div>
+
+                        <div class="col-md-4 position-relative">
+                          <label for="validationTooltip05" class="form-label">Celular</label>
+                          <input type="tel" class="form-control" id="tel" required>
+                        </div>
+
+                        <div class="col-md-4 position-relative">
+                          <label for="validationTooltip05" class="form-label">Data de Nascimento</label>
+                          <input type="date" class="form-control" id="date" required>
+                        </div>
+
+                        <div class="col-12">
+                          <button class="btn btn-outline-primary --bs-primary-border-subtle" type="submit">Create User</button>
+                        </div>
+                      </form>
+                </div>
+              </div>
+            </div>
+    </section>
+
     <div class="cotainer">
         <div class="col">
             <footer class="py-3 my-4">

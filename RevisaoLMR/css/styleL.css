@@ -46,7 +46,7 @@ header img{
 
 footer{
     bottom: 0;
-    position: relative;
+    position: fixed;
     width: 90%;
     text-align: center;
 }
