@@ -43,7 +43,6 @@ header img{
     .hb:hover ~ .menuHB, .menuHB:hover{display:block;}
 }
 
-
 footer{
     bottom: 0;
     position: fixed;
