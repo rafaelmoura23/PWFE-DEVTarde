@@ -1,3 +1,40 @@
 body{
     margin: 0;
 }
+
+header{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(217, 166, 214);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+}
+
+header img{
+    height: 100%;
+    border-radius: 7px;
+}
+
+.menu1{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.linkMenu{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+.hb{
+    display: none;
+}
+
+.menuHB{
+    display: none;
+}
+
+
