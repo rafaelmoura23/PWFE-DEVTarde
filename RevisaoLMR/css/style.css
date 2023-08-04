@@ -48,8 +48,8 @@ header img{
     justify-content: center;
     align-items: center;
     border-radius: 20px;
-    width: 1300px;
-    height: 500px;
+    width: 1500px;
+    height: 700px;
     position: fixed;
     top: 50%;
     left: 50%;
@@ -58,8 +58,8 @@ header img{
 
 #carouselExampleFade img{
     border-radius: 20px;
-    width: 1300px;
-    height: 500px;
+    width: 1500px;
+    height: 700px;
 }
 
 footer{
