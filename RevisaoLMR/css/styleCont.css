@@ -43,6 +43,15 @@ header img{
     .hb:hover ~ .menuHB, .menuHB:hover{display:block;}
 }
 
+#box .col-5{
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: #dddddd;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
+    float: center;
+}
 
 footer{
     bottom: 0;
