@@ -52,20 +52,15 @@ footer{
 
 #botao{
     background-color: rgb(210, 188, 209);
-    margin-left: 40%;
 }
 
 #box .col-5{
     max-width: 500px;
     margin: 0 auto;
-    background-color: #dddddd;
+    background-color: rgb(210, 188, 209);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 0px 5px rgba(0,0,0,0.3);
     float: center;
-    border-color: rgb(210, 188, 209);
-    border-style: solid;
-}
-
-h1{
+    color: gray;
 }
