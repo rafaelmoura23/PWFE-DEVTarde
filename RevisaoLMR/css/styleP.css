@@ -49,9 +49,6 @@ header img{
     border-radius: 5px;
 }
 
-hr{
-    color: white;
-}
 
 
 
@@ -59,8 +56,8 @@ hr{
 
 
 footer{
-    bottom: 0;
-    position: relative;
-    width: 90%;
-    text-align: center;
+   width: 100%;
+   height: 7vh;
+   background-color:rgb(210, 188, 209);
+   bottom: 0;
 }
