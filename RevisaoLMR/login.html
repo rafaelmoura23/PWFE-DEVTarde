@@ -31,11 +31,11 @@
     </header>
 
     <section>
-        <div class="container">
+        <div class="container" id="box">
             <div class="row justify-content-center">
                 <div class="col-5 justify-content-center mt-5">
                   <h1>FORMULÁRIO DE LOGIN</h1>
-                    <form>
+                    <form class = "row g-3 needs-validation" novalidate action="">
                         <div class="mb-3">
                           <label for="exampleInputEmail1" class="form-label">Email</label>
                           <input type="email" class="form-control" id="pEmail" aria-describedby="emailHelp">
@@ -48,7 +48,7 @@
                           <input type="checkbox" class="form-check-input" id="exampleCheck1">
                           <label class="form-check-label" for="exampleCheck1">Check me out</label>
                         </div>
-                        <input type="button" class="btn" value="Login" onclick="login()" id="botao">
+                        <input type="submit" class="btn" value="Login" onclick="login()" id="botao">
                       </form>
             </div>
           </div>

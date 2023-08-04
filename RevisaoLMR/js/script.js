@@ -4,8 +4,10 @@ function login() {
 
     if (email == 0) {
         alert("Informe o seu email")
+        return false
     } else if (senha == 0) {
         alert("Informe a sua senha")
+        return false
     } else {
         alert("Obrigado por fazer login!")
     }
