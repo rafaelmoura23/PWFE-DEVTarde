@@ -49,3 +49,8 @@ footer{
     width: 90%;
     text-align: center;
 }
+
+#botao{
+    background-color: rgb(210, 188, 209);
+    float: center;
+}
