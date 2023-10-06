@@ -2,3 +2,6 @@ npm install -g create-react-app => instalação react
 npx create-react-app nome-do-projeto => criação dos projetos
 cd tab => pastas dentro da pasta que você estiver
 .. / => pastas anteriores
+
+npm install -g @angular/cli => instalação angular
+ng new nome-do-projeto ou  npx ng new nome-do-projeto => criação dos projetos
