@@ -1,0 +1,23 @@
+
+.rodape{
+    background-color: white;
+}
+
+.linkRodape{
+    text-decoration: none;   /* remove o traço do hiperlink*/
+    font-size: 15px;
+    color: black;
+    background-color: white;
+    width: 100%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.copi{
+    font-size: 0.8em;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
