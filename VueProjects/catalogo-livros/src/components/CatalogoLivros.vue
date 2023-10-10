@@ -1,25 +1,23 @@
 <template>
-  <div class="catalogo-livros"> 
-      <h1>catalogo-livrosComponent</h1>
+  <div>
+  <h2>Meus Livros Lidos</h2>
+  <ul>
+  <li v-for="(livro, index) in livros" :key="index">{{ livro }}</li>
+  </ul>
   </div>
-</template>
-<script lang="ts">
-  import Vue from 'vue';
-  import Component from 'vue-class-component';
-
-  @Component({})
-  export default class CatalogoLivrosComponent extends Vue {
-
-    mounted (){
-      console.log('hello from app');
-    }
-    
+  </template>
+  
+  <script>
+  export default {
+  data() {
+  return {
+  livros: [
+  'Livro 1',
+  'Livro 2',
+  'Livro 3',
+  // Adicione mais livros aqui
+  ]
+  };
   }
-
-</script>
-
-<style scoped lang="scss">
-  .catalogo-livros {
-
-  }
-</style>
+  };
+  </script>
