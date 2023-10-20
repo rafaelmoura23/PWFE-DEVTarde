@@ -1,5 +1,6 @@
 <template>
     <div class="catalogo-Filmes">
+        <button @click="alternar(filme)">Alternar</button>
         <!-- <button @click="alternarStatus("./components/CatalogoDeLivros.vue")"> Alternar </button> -->
         <h2>Catálogo de Filmes</h2>
         <input v-model="novoFilme" @keyup.enter="adicionarFilme" placeholder="Digite um novo filme" />
