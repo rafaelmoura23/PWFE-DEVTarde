@@ -1,50 +1,50 @@
 <template>
-    <div class="catalogo-filmes">
-    <h2>Catálogo de Filmes</h2>
-    <input v-model="novoFilme" @keyup.enter="adicionarFilme"
-    placeholder="Digite um novo filme" />
-    <ul>
-    <li v-for="(filme, index) in filmes" :key="index">
-    {{ filme.titulo }}
-    <button @click="alternarStatus(filme)">Marcar como {{
-    filme.assistido ? 'Não Assistido' : 'Assistido' }}</button>
-    </li>
-    </ul>
+    <div class="catalogo-livros">
+        <h2>Catálogo de Livros</h2>
+        <input v-model="novoLivro" @keyup.enter="adicionarFilme" placeholder="Digite um novo livro" />
+        <ul>
+            <li v-for="(livro, index) in livros" :key="index">
+                {{ livro.titulo }}
+                <button @click="alternarStatus(livro)">Marcar como {{
+                    livro.assistido ? 'Não Assistido' : 'Assistido' }}</button>
+            </li>
+        </ul>
     </div>
-    </template>
+</template>
     
-    <script>
-    export default {
+<script>
+export default {
     data() {
-    return {
-    novoFilme: "",
-    filmes: [],
-    };
+        return {
+            novolivro: "",
+            livros: [],
+        };
     },
     methods: {
-    adicionarFilme() {
-    if (this.novoFilme.trim() !== "") {
-    this.filmes.push({ titulo: this.novoFilme, assistido: false });
-    this.novoFilme = "";
-    }
+        adicionarlivro() {
+            if (this.novolivro.trim() !== "") {
+                this.livros.push({ titulo: this.novolivro, assistido: false });
+                this.novolivro = "";
+            }
+        },
+        alternarStatus(livro) {
+            livro.assistido = !livro.assistido;
+        },
     },
-    alternarStatus(filme) {
-    filme.assistido = !filme.assistido;
-    },
-    },
-    };
-    </script>
+};
+</script>
     
-    <style scoped>
-    .catalogo-filmes {
+<style scoped>
+.catalogo-livro {
     margin: 20px;
-    }
-    
-    ul {
+}
+
+ul {
     list-style-type: none;
     padding: 0;
-    }
-    li {
+}
+
+li {
     margin: 10px 0;
-    }
-    </style>
+}
+</style>
