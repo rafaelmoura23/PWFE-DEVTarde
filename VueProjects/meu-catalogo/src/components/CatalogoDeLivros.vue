@@ -1,12 +1,12 @@
 <template>
-    <div class="catalogo-filmes">
-        <h2>Catálogo de Filmes</h2>
-        <input v-model="novoFilme" @keyup.enter="adicionarFilme" placeholder="Digite um novo filme" />
+    <div class="catalogo-Livros">
+        <h2>Catálogo de Livros</h2>
+        <input v-model="novolivro" @keyup.enter="adicionarlivro" placeholder="Digite um novo livro" />
         <ul>
-            <li v-for="(filme, index) in filmes" :key="index">
-                {{ filme.titulo }}
-                <button @click="alternarStatus(filme)">Marcar como {{
-                    filme.assistido ? 'Não Assistido' : 'Assistido' }}</button>
+            <li v-for="(livro, index) in livros" :key="index">
+                {{ livro.titulo }}
+                <button @click="alternarStatus(livro)">Marcar como {{
+                    livro.assistido ? 'Não Assistido' : 'Assistido' }}</button>
             </li>
         </ul>
     </div>
@@ -16,26 +16,26 @@
 export default {
     data() {
         return {
-            novoFilme: "",
-            filmes: [],
+            novolivro: "",
+            livros: [],
         };
     },
     methods: {
-        adicionarFilme() {
-            if (this.novoFilme.trim() !== "") {
-                this.filmes.push({ titulo: this.novoFilme, assistido: false });
-                this.novoFilme = "";
+        adicionarlivro() {
+            if (this.novolivro.trim() !== "") {
+                this.livros.push({ titulo: this.novolivro, assistido: false });
+                this.novolivro = "";
             }
         },
-        alternarStatus(filme) {
-            filme.assistido = !filme.assistido;
+        alternarStatus(livro) {
+            livro.assistido = !livro.assistido;
         },
     },
 };
 </script>
     
 <style scoped>
-.catalogo-filmes {
+.catalogo-livros {
     margin: 20px;
 }
 
