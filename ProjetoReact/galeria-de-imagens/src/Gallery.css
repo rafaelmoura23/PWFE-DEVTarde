@@ -2,4 +2,17 @@
 .image-container img {
     width: 150px; /* Define o tamanho desejado para as imagens */
     height: 150px;
+    margin-right: 5px;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 5px  #707272;
     }
+.image-container{
+    background-color: rgb(46, 44, 44);
+}
+
+button{
+    background-color: #00ffff;
+    border-radius: 10px;
+    margin: 5px;
+}

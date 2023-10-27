@@ -2,9 +2,8 @@
 npm install -g create-react-app => instalação react
 npx create-react-app nome-do-projeto => criação dos projetos
 npm start => inicia o server
+npm install react-responsive-carousel => instalar a biblioteca de carrossel do react
 
-cd tab => pastas dentro da pasta que você estiver
-.. / => pastas anteriores
 
 //Angular
 npm install -g @angular/cli => instalação angular
@@ -18,3 +17,7 @@ ng g c footer => cria uma página footer
  npm install -g vue-generate-component-typescript => instalar na pasta VueProjects para criar componentes 
  vue create meu-projeto-vue => cria um projeto vue
  npm run serve => inicia o server
+
+
+ cd tab => pastas dentro da pasta que você estiver
+.. / => pastas anteriores

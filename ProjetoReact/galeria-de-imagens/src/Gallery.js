@@ -2,6 +2,7 @@
 import React, { useState } from 'react';
 
 import './Gallery.css'; // Importa o arquivo CSS
+import ImageCarousel from './ImageCarousel';
 
 // Define o componente Gallery
 const Gallery = () => {
@@ -40,7 +41,13 @@ const Gallery = () => {
                     <img key={index} src={image} alt={`Imagem ${index}`} />
                 ))}
             </div>
+
+            <div>
+                <ImageCarousel images={images}/>
+            </div>
+
         </div>
     );
 };
 export default Gallery;
+
