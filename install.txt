@@ -8,7 +8,7 @@ npm install react-responsive-carousel => instalar a biblioteca de carrossel do r
 //Angular
 npm install -g @angular/cli => instalação angular
 ng new nome-do-projeto ou  npx ng new nome-do-projeto => criação dos projetos
-ng server = > inicia o server
+ng server ou npx npm start = > inicia o server
 ng g c header => cria uma página header
 ng g c footer => cria uma página footer
 
