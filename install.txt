@@ -21,3 +21,4 @@ ng g c footer => cria uma página footer
 
  cd tab => pastas dentro da pasta que você estiver
 .. / => pastas anteriores
+set execution policy unrestricted
