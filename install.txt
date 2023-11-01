@@ -11,6 +11,7 @@ ng new nome-do-projeto ou  npx ng new nome-do-projeto => criação dos projetos
 ng server ou npx npm start = > inicia o server
 ng g c header => cria uma página header
 ng g c footer => cria uma página footer
+json-server --watch nome-bd.json --port 3000 => executar na pasta onde estiver o arquivo nome-bd.json
 
  //Vue
  npm install -g @vue/cli => instalar o vue na pasta

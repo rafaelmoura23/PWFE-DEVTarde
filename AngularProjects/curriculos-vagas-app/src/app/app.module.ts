@@ -10,6 +10,7 @@ import { PainelVagasComponent } from './view/painel-vagas/painel-vagas.component
 import { HeaderComponent } from './template/header/header.component';
 import { FooterComponent } from './template/footer/footer.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
