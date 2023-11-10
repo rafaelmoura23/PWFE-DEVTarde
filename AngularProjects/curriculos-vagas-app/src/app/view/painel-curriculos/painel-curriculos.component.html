@@ -10,9 +10,13 @@
   ><input type="text" name="experiencia" [(ngModel)]="curriculo.experiencia" /><br />
   <label>Contato</label
   ><input type="text" name="contato" [(ngModel)]="curriculo.contato" /><br />
+    <div class="buttonsFormsI">
   <button type="button" (click)="cadastrar()">Cadastrar curriculo</button>
   <button type="button" (click)="atualizar(curriculo.id)">Atualizar curriculo</button>
+    </div>
+    <div class="buttonsFormsII">
   <button type="button" (click)="excluir(curriculo.id)">Excluir curriculo</button>
+  </div>
 </form>
 
 <section class="lista-curriculos">
@@ -33,13 +37,14 @@
         <td>{{ curriculo.experiencia }}</td>
         <td> {{ curriculo.contato }}</td>
         <td>
-          <button type="button" (click)="listarCurriculo(curriculo)" class="btn- listar">
+          <div class="buttons">
+          <button type="button" (click)="listarCurriculo(curriculo)" class="btn-listar">
             Listar
           </button>
-
-          <button type="button" (click)="excluir(curriculo.id)" class="btn- excluir">
+          <button type="button" (click)="excluir(curriculo.id)" class="btn-excluir">
             Excluir
           </button>
+          </div>
         </td>
       </tr>
     </tbody>

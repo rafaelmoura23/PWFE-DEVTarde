@@ -94,3 +94,24 @@ form button:hover {
 .btn-excluir:hover {
   background-color: #c82333;
 }
+
+.buttons {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttonsFormsI {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.buttonsFormsII{
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
