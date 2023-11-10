@@ -1,1 +1,49 @@
-<p>painel-curriculos works!</p>
+<h2>Cadastrar</h2>
+
+<form>
+  <label>Id</label><input type="text" name="id" [(ngModel)]="curriculo.id" /><br />
+  <label>Nome</label
+  ><input type="text" name="nome" [(ngModel)]="curriculo.nome" /><br />
+  <label>Foto</label
+  ><input type="text" name="foto" [(ngModel)]="curriculo.foto" /><br />
+  <label>Experiência</label
+  ><input type="text" name="experiencia" [(ngModel)]="curriculo.experiencia" /><br />
+  <label>Contato</label
+  ><input type="text" name="contato" [(ngModel)]="curriculo.contato" /><br />
+  <button type="button" (click)="cadastrar()">Cadastrar curriculo</button>
+  <button type="button" (click)="atualizar(curriculo.id)">Atualizar curriculo</button>
+  <button type="button" (click)="excluir(curriculo.id)">Excluir curriculo</button>
+</form>
+
+<section class="lista-curriculos">
+  <table class="table">
+    <thead>
+      <tr>
+        <th>Código do Curriculo</th>
+        <th>Curriculo</th>
+        <th>Descrição do Curriculo</th>
+        <th>Contato</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let curriculo of curriculos" class="curriculo-row">
+        <td>{{ curriculo.id }}</td>
+        <td>{{ curriculo.nome }}</td>
+        <td>{{ curriculo.experiencia }}</td>
+        <td> {{ curriculo.contato }}</td>
+        <td>
+          <button type="button" (click)="listarCurriculo(curriculo)" class="btn- listar">
+            Listar
+          </button>
+
+          <button type="button" (click)="excluir(curriculo.id)" class="btn- excluir">
+            Excluir
+          </button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+<div class="rodape"></div>
+
