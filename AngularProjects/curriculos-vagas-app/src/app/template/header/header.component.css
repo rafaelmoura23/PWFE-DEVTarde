@@ -1,0 +1,19 @@
+.nav-link{
+  background-color: aqua;
+  border-radius: 15px;
+  margin: 7px;
+  padding: 10px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-link:hover{
+  background-color: rgb(66, 66, 239);
+  color: white;
+}
+
+.navbar-brand{
+  font-size: 50px;
+  margin-left: 10px;
+}
+
+
