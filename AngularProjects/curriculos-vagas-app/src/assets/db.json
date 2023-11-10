@@ -36,5 +36,13 @@
       "salario": "10000"
     }
   ],
-  "Curriculos": []
+  "Curriculos": [
+    {
+      "id": "1",
+      "nome": "Rafael de Sousa Moura",
+      "foto": "foto1.jpg",
+      "experiencia": "Analista de Banco de Dados Junior - 3 Anos",
+      "contato": "rafaeldesousa@gmail.com"
+    }
+  ]
 }

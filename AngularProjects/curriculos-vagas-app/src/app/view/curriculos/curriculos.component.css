@@ -1,0 +1,12 @@
+.lista-curriculos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.lista-curriculos .card {
+  margin: 50px 10px;
+  min-height: 500px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+}
