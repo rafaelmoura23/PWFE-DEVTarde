@@ -5,7 +5,7 @@ form {
   border: 1px solid #ccc;
   border-radius: 5px;
   background-color: #f5f5f5;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 form label {
@@ -93,3 +93,21 @@ form button:hover {
 .btn-excluir:hover {
   background-color: #c82333;
 }
+
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttonsForms {
+  display: flex;
+  justify-content: space-around;
+}
+
+h2{
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+}
+
+
